@@ -1,0 +1,2 @@
+gcc main.c -o game.exe -O1 -std=c99 -w -Wno-missing-braces -I include/ -L lib/ -lraylib -lopengl32 -lgdi32 -lwinmm -Wl,--subsystem,windows -Wl,-Bstatic,--whole-archive -lwinpthread -Wl,--no-whole-archive 
+pause
